@@ -21,7 +21,7 @@ class FactorialTest {
 
     @Test
     fun test1() {
-        for (i in BigInteger.ZERO.toInt()..BigInteger.valueOf(30).toInt()) {
+        for (i in 0..30) {
             System.err.println(
                 nthFactorial(i).let {
                     "fact($i) = $it"
